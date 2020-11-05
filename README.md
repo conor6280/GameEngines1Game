@@ -1,2 +1,1 @@
-# GameEngines1Game
- 
+# GameEngines1Game Conor DunneC18367613DT508/TU984For my game i'm going to finish a game i started last year where the player character is chased around a procedurally generated city by an enemy who is far faster, to escape the player must find speed boost rings that randomly spawn around the map. The player will have 3 hitpoints, if they are hit the enemy will be teleported back to its spawn to chase you down again.
