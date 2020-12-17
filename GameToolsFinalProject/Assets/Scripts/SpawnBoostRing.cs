@@ -19,6 +19,11 @@ public class SpawnBoostRing : MonoBehaviour
             Destroy(BoostRing);
             Debug.Log("snvs");
         }
+
+        if (collision.gameObject.tag == "Building")
+        {
+            spawnBoost();
+        }
     }
 
     public void spawnBoost()
