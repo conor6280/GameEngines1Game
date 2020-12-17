@@ -9,17 +9,16 @@ public class SpawnBoostRing : MonoBehaviour
     private void Update()
     {
         Vector3 spawnPosition = new Vector3(Random.Range(650, -650), Random.Range(1, 2), Random.Range(650, -650));
-        if (collision.gameObject.tag == "Player")
+    }
+
+    void OnTriggerEnter(Collider collision)
+    {
+        if(collision.gameObject.tag == "Player")
         {
             spawnBoost();
             Destroy(BoostRing);
             Debug.Log("snvs");
         }
-    }
-
-    void OnTriggerEnter(Collider collision)
-    {
-
     }
 
     public void spawnBoost()
