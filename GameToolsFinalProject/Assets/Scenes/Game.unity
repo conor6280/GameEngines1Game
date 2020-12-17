@@ -1929,6 +1929,7 @@ GameObject:
   - component: {fileID: 1786706367}
   - component: {fileID: 1786706369}
   - component: {fileID: 1786706371}
+  - component: {fileID: 1786706372}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2032,6 +2033,14 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!81 &1786706372
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786706365}
+  m_Enabled: 1
 --- !u!1 &1863164018
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,7 +2162,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e9f62ff50d06586468aa5eaeca3bfb03, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.472
   m_Pitch: 1
   Loop: 0
   Mute: 0
