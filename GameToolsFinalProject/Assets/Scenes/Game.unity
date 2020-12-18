@@ -1701,15 +1701,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buildings:
   - {fileID: 556899855}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1548940968}
+  - {fileID: 1345880421}
+  - {fileID: 2100060369}
+  - {fileID: 726691263}
+  - {fileID: 599470055}
+  - {fileID: 69898418}
+  - {fileID: 1910275803}
+  - {fileID: 1903102658}
+  - {fileID: 904602071}
   mapHeight: 30
   mapWidth: 30
 --- !u!4 &1451961681
