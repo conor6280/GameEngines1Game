@@ -8,7 +8,7 @@ public class SpawnBoostRing : MonoBehaviour
 
     private void Update()
     {
-        Vector3 spawnPosition = new Vector3(Random.Range(650, -650), Random.Range(1, 2), Random.Range(650, -650));
+        Vector3 spawnPosition = new Vector3(Random.Range(30, -20), Random.Range(1, 2), Random.Range(30, -20));
     }
 
     void OnTriggerEnter(Collider collision)

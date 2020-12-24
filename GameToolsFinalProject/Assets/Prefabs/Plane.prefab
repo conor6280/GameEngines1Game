@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1494848061634526553}
   - component: {fileID: 1494848061634526552}
   - component: {fileID: 2839062345663129016}
+  - component: {fileID: 8683348839187770228}
+  - component: {fileID: 3814494300799622600}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Building
@@ -107,3 +109,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 47.26689, z: 10}
   m_Center: {x: 0, y: 16.102821, z: 0}
+--- !u!114 &8683348839187770228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494848061634526535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde4b6d3516be4440ad701174399c817, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  updateStep: 0.01
+  sampleDataLength: 1024
+  clipLoudness: 10
+  Plane: {fileID: 1494848061634526535}
+  sizeFactor: 1.75
+  minSize: 0
+  maxSize: 320
+--- !u!114 &3814494300799622600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494848061634526535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cceabcd7065de2d4d9ccc8d1d516bb5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scale: 80
+  waveSpeed: 10
+  waveHeight: 0
