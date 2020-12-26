@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MeshMaker : MonoBehaviour
 {
-
     public float scale;
     public float waveSpeed;
     public float waveHeight;

@@ -6,11 +6,6 @@ public class SpawnBoostRing : MonoBehaviour
 {
     public GameObject BoostRing;
 
-    private void Update()
-    {
-        Vector3 spawnPosition = new Vector3(Random.Range(30, -20), Random.Range(1, 2), Random.Range(30, -20));
-    }
-
     void OnTriggerEnter(Collider collision)
     {
         if(collision.gameObject.tag == "Player")
@@ -28,7 +23,7 @@ public class SpawnBoostRing : MonoBehaviour
 
     public void spawnBoost()
     {
-        Vector3 spawnPosition = new Vector3(Random.Range(0, 1300), Random.Range(1, 2), Random.Range(0, 1300));
+        Vector3 spawnPosition = new Vector3(Random.Range(-30, 300), Random.Range(1, 2), Random.Range(-50, 270));
         Instantiate(BoostRing, spawnPosition, Quaternion.Euler(new Vector3(90,0,0)));
     }
 }
